@@ -20,13 +20,13 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: whzhbicusqeqob
-  password: 'f31dcd526f66733cb3073a36ce38affd0e39bee9c847082b688ca8de28cae67c'
-  host: ec2-3-218-149-60.compute-1.amazonaws.com
+  username: blzzpwrnynlkrq
+  password: '1c8e271503df2ae5d9d53e60e280126991bd09296c7f8dc1e5e2048471522d61'
+  host: ec2-3-213-146-52.compute-1.amazonaws.com
 
 development:
   <<: *default
-  database: d5hhdg7loirjcm
+  database: dau330tmm9lnl8
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
